@@ -9,10 +9,30 @@
 /* Begin PBXBuildFile section */
 		CA29BA0B202B02CC00D82DC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA29BA0A202B02CC00D82DC5 /* AppDelegate.m */; };
 		CA29BA0E202B02CC00D82DC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA29BA0D202B02CC00D82DC5 /* ViewController.m */; };
-		CA29BA11202B02CC00D82DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA29BA0F202B02CC00D82DC5 /* Main.storyboard */; };
 		CA29BA13202B02CC00D82DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA29BA12202B02CC00D82DC5 /* Assets.xcassets */; };
-		CA29BA16202B02CC00D82DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA29BA14202B02CC00D82DC5 /* LaunchScreen.storyboard */; };
 		CA29BA19202B02CC00D82DC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA29BA18202B02CC00D82DC5 /* main.m */; };
+		CA3CDA65202D6C4F00AEDFAA /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3CDA64202D6C4F00AEDFAA /* HomeCell.m */; };
+		CAAE6172202BF2D700DA1599 /* HomeToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE6171202BF2D700DA1599 /* HomeToolBar.m */; };
+		CAAE618E202C18BF00DA1599 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAAE6174202C18BF00DA1599 /* Info.plist */; };
+		CAAE618F202C18BF00DA1599 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE6176202C18BF00DA1599 /* MASCompositeConstraint.m */; };
+		CAAE6190202C18BF00DA1599 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE6179202C18BF00DA1599 /* MASConstraint.m */; };
+		CAAE6191202C18BF00DA1599 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE617B202C18BF00DA1599 /* MASConstraintMaker.m */; };
+		CAAE6192202C18BF00DA1599 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE617D202C18BF00DA1599 /* MASLayoutConstraint.m */; };
+		CAAE6193202C18BF00DA1599 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE6181202C18BF00DA1599 /* MASViewAttribute.m */; };
+		CAAE6194202C18BF00DA1599 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE6183202C18BF00DA1599 /* MASViewConstraint.m */; };
+		CAAE6195202C18BF00DA1599 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE6185202C18BF00DA1599 /* NSArray+MASAdditions.m */; };
+		CAAE6196202C18BF00DA1599 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE6188202C18BF00DA1599 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CAAE6197202C18BF00DA1599 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE618A202C18BF00DA1599 /* View+MASAdditions.m */; };
+		CAAE6198202C18BF00DA1599 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE618D202C18BF00DA1599 /* ViewController+MASAdditions.m */; };
+		CAAE61AA202C18CE00DA1599 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CAAE619A202C18CE00DA1599 /* MJRefresh.bundle */; };
+		CAAE61AB202C18CE00DA1599 /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE619D202C18CE00DA1599 /* MJRefreshBaseView.m */; };
+		CAAE61AC202C18CE00DA1599 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE619F202C18CE00DA1599 /* MJRefreshConst.m */; };
+		CAAE61AD202C18CE00DA1599 /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE61A1202C18CE00DA1599 /* MJRefreshFooterView.m */; };
+		CAAE61AE202C18CE00DA1599 /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE61A3202C18CE00DA1599 /* MJRefreshHeaderView.m */; };
+		CAAE61AF202C18CE00DA1599 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE61A5202C18CE00DA1599 /* UIScrollView+MJExtension.m */; };
+		CAAE61B0202C18CE00DA1599 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE61A7202C18CE00DA1599 /* UIScrollView+MJRefresh.m */; };
+		CAAE61B1202C18CE00DA1599 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE61A9202C18CE00DA1599 /* UIView+MJExtension.m */; };
+		CAAE61B4202C323500DA1599 /* HomeGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAE61B3202C323500DA1599 /* HomeGridView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +41,57 @@
 		CA29BA0A202B02CC00D82DC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CA29BA0C202B02CC00D82DC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA29BA0D202B02CC00D82DC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CA29BA10202B02CC00D82DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA29BA12202B02CC00D82DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA29BA15202B02CC00D82DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA29BA17202B02CC00D82DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA29BA18202B02CC00D82DC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA3CDA63202D6C4F00AEDFAA /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		CA3CDA64202D6C4F00AEDFAA /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		CAAE6170202BF2D700DA1599 /* HomeToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeToolBar.h; sourceTree = "<group>"; };
+		CAAE6171202BF2D700DA1599 /* HomeToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeToolBar.m; sourceTree = "<group>"; };
+		CAAE6174202C18BF00DA1599 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAE6175202C18BF00DA1599 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		CAAE6176202C18BF00DA1599 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		CAAE6177202C18BF00DA1599 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		CAAE6178202C18BF00DA1599 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		CAAE6179202C18BF00DA1599 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		CAAE617A202C18BF00DA1599 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		CAAE617B202C18BF00DA1599 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		CAAE617C202C18BF00DA1599 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CAAE617D202C18BF00DA1599 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CAAE617E202C18BF00DA1599 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		CAAE617F202C18BF00DA1599 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		CAAE6180202C18BF00DA1599 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		CAAE6181202C18BF00DA1599 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		CAAE6182202C18BF00DA1599 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		CAAE6183202C18BF00DA1599 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		CAAE6184202C18BF00DA1599 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		CAAE6185202C18BF00DA1599 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		CAAE6186202C18BF00DA1599 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CAAE6187202C18BF00DA1599 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		CAAE6188202C18BF00DA1599 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		CAAE6189202C18BF00DA1599 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		CAAE618A202C18BF00DA1599 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		CAAE618B202C18BF00DA1599 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CAAE618C202C18BF00DA1599 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CAAE618D202C18BF00DA1599 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		CAAE619A202C18CE00DA1599 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		CAAE619B202C18CE00DA1599 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		CAAE619C202C18CE00DA1599 /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		CAAE619D202C18CE00DA1599 /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		CAAE619E202C18CE00DA1599 /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		CAAE619F202C18CE00DA1599 /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		CAAE61A0202C18CE00DA1599 /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		CAAE61A1202C18CE00DA1599 /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		CAAE61A2202C18CE00DA1599 /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		CAAE61A3202C18CE00DA1599 /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		CAAE61A4202C18CE00DA1599 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		CAAE61A5202C18CE00DA1599 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		CAAE61A6202C18CE00DA1599 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		CAAE61A7202C18CE00DA1599 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		CAAE61A8202C18CE00DA1599 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		CAAE61A9202C18CE00DA1599 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		CAAE61B2202C323500DA1599 /* HomeGridView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeGridView.h; sourceTree = "<group>"; };
+		CAAE61B3202C323500DA1599 /* HomeGridView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeGridView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +124,79 @@
 		CA29BA08202B02CC00D82DC5 /* AlipayHomePage */ = {
 			isa = PBXGroup;
 			children = (
+				CAAE6199202C18CE00DA1599 /* MJRefresh */,
+				CAAE6173202C18BF00DA1599 /* Masonry */,
 				CA29BA09202B02CC00D82DC5 /* AppDelegate.h */,
 				CA29BA0A202B02CC00D82DC5 /* AppDelegate.m */,
 				CA29BA0C202B02CC00D82DC5 /* ViewController.h */,
 				CA29BA0D202B02CC00D82DC5 /* ViewController.m */,
-				CA29BA0F202B02CC00D82DC5 /* Main.storyboard */,
+				CA3CDA63202D6C4F00AEDFAA /* HomeCell.h */,
+				CA3CDA64202D6C4F00AEDFAA /* HomeCell.m */,
+				CAAE6170202BF2D700DA1599 /* HomeToolBar.h */,
+				CAAE6171202BF2D700DA1599 /* HomeToolBar.m */,
+				CAAE61B2202C323500DA1599 /* HomeGridView.h */,
+				CAAE61B3202C323500DA1599 /* HomeGridView.m */,
 				CA29BA12202B02CC00D82DC5 /* Assets.xcassets */,
-				CA29BA14202B02CC00D82DC5 /* LaunchScreen.storyboard */,
 				CA29BA17202B02CC00D82DC5 /* Info.plist */,
 				CA29BA18202B02CC00D82DC5 /* main.m */,
 			);
 			path = AlipayHomePage;
+			sourceTree = "<group>";
+		};
+		CAAE6173202C18BF00DA1599 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE6174202C18BF00DA1599 /* Info.plist */,
+				CAAE6175202C18BF00DA1599 /* MASCompositeConstraint.h */,
+				CAAE6176202C18BF00DA1599 /* MASCompositeConstraint.m */,
+				CAAE6177202C18BF00DA1599 /* MASConstraint+Private.h */,
+				CAAE6178202C18BF00DA1599 /* MASConstraint.h */,
+				CAAE6179202C18BF00DA1599 /* MASConstraint.m */,
+				CAAE617A202C18BF00DA1599 /* MASConstraintMaker.h */,
+				CAAE617B202C18BF00DA1599 /* MASConstraintMaker.m */,
+				CAAE617C202C18BF00DA1599 /* MASLayoutConstraint.h */,
+				CAAE617D202C18BF00DA1599 /* MASLayoutConstraint.m */,
+				CAAE617E202C18BF00DA1599 /* Masonry.h */,
+				CAAE617F202C18BF00DA1599 /* MASUtilities.h */,
+				CAAE6180202C18BF00DA1599 /* MASViewAttribute.h */,
+				CAAE6181202C18BF00DA1599 /* MASViewAttribute.m */,
+				CAAE6182202C18BF00DA1599 /* MASViewConstraint.h */,
+				CAAE6183202C18BF00DA1599 /* MASViewConstraint.m */,
+				CAAE6184202C18BF00DA1599 /* NSArray+MASAdditions.h */,
+				CAAE6185202C18BF00DA1599 /* NSArray+MASAdditions.m */,
+				CAAE6186202C18BF00DA1599 /* NSArray+MASShorthandAdditions.h */,
+				CAAE6187202C18BF00DA1599 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				CAAE6188202C18BF00DA1599 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CAAE6189202C18BF00DA1599 /* View+MASAdditions.h */,
+				CAAE618A202C18BF00DA1599 /* View+MASAdditions.m */,
+				CAAE618B202C18BF00DA1599 /* View+MASShorthandAdditions.h */,
+				CAAE618C202C18BF00DA1599 /* ViewController+MASAdditions.h */,
+				CAAE618D202C18BF00DA1599 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		CAAE6199202C18CE00DA1599 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE619A202C18CE00DA1599 /* MJRefresh.bundle */,
+				CAAE619B202C18CE00DA1599 /* MJRefresh.h */,
+				CAAE619C202C18CE00DA1599 /* MJRefreshBaseView.h */,
+				CAAE619D202C18CE00DA1599 /* MJRefreshBaseView.m */,
+				CAAE619E202C18CE00DA1599 /* MJRefreshConst.h */,
+				CAAE619F202C18CE00DA1599 /* MJRefreshConst.m */,
+				CAAE61A0202C18CE00DA1599 /* MJRefreshFooterView.h */,
+				CAAE61A1202C18CE00DA1599 /* MJRefreshFooterView.m */,
+				CAAE61A2202C18CE00DA1599 /* MJRefreshHeaderView.h */,
+				CAAE61A3202C18CE00DA1599 /* MJRefreshHeaderView.m */,
+				CAAE61A4202C18CE00DA1599 /* UIScrollView+MJExtension.h */,
+				CAAE61A5202C18CE00DA1599 /* UIScrollView+MJExtension.m */,
+				CAAE61A6202C18CE00DA1599 /* UIScrollView+MJRefresh.h */,
+				CAAE61A7202C18CE00DA1599 /* UIScrollView+MJRefresh.m */,
+				CAAE61A8202C18CE00DA1599 /* UIView+MJExtension.h */,
+				CAAE61A9202C18CE00DA1599 /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA29BA16202B02CC00D82DC5 /* LaunchScreen.storyboard in Resources */,
+				CAAE618E202C18BF00DA1599 /* Info.plist in Resources */,
 				CA29BA13202B02CC00D82DC5 /* Assets.xcassets in Resources */,
-				CA29BA11202B02CC00D82DC5 /* Main.storyboard in Resources */,
+				CAAE61AA202C18CE00DA1599 /* MJRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,32 +270,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAE6191202C18BF00DA1599 /* MASConstraintMaker.m in Sources */,
+				CAAE6172202BF2D700DA1599 /* HomeToolBar.m in Sources */,
 				CA29BA0E202B02CC00D82DC5 /* ViewController.m in Sources */,
+				CAAE61AB202C18CE00DA1599 /* MJRefreshBaseView.m in Sources */,
+				CAAE6190202C18BF00DA1599 /* MASConstraint.m in Sources */,
+				CAAE6198202C18BF00DA1599 /* ViewController+MASAdditions.m in Sources */,
+				CAAE61AE202C18CE00DA1599 /* MJRefreshHeaderView.m in Sources */,
+				CAAE6192202C18BF00DA1599 /* MASLayoutConstraint.m in Sources */,
+				CAAE61B0202C18CE00DA1599 /* UIScrollView+MJRefresh.m in Sources */,
+				CAAE61AF202C18CE00DA1599 /* UIScrollView+MJExtension.m in Sources */,
+				CAAE61B1202C18CE00DA1599 /* UIView+MJExtension.m in Sources */,
+				CAAE6195202C18BF00DA1599 /* NSArray+MASAdditions.m in Sources */,
+				CAAE61AD202C18CE00DA1599 /* MJRefreshFooterView.m in Sources */,
+				CAAE61AC202C18CE00DA1599 /* MJRefreshConst.m in Sources */,
+				CAAE6194202C18BF00DA1599 /* MASViewConstraint.m in Sources */,
+				CAAE61B4202C323500DA1599 /* HomeGridView.m in Sources */,
+				CAAE6193202C18BF00DA1599 /* MASViewAttribute.m in Sources */,
+				CAAE6197202C18BF00DA1599 /* View+MASAdditions.m in Sources */,
 				CA29BA19202B02CC00D82DC5 /* main.m in Sources */,
 				CA29BA0B202B02CC00D82DC5 /* AppDelegate.m in Sources */,
+				CAAE618F202C18BF00DA1599 /* MASCompositeConstraint.m in Sources */,
+				CA3CDA65202D6C4F00AEDFAA /* HomeCell.m in Sources */,
+				CAAE6196202C18BF00DA1599 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CA29BA0F202B02CC00D82DC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA29BA10202B02CC00D82DC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA29BA14202B02CC00D82DC5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA29BA15202B02CC00D82DC5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CA29BA1A202B02CC00D82DC5 /* Debug */ = {
@@ -278,9 +407,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9Z9KA4X7C;
 				INFOPLIST_FILE = AlipayHomePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LXAPP.AlipayHomePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,9 +423,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K9Z9KA4X7C;
 				INFOPLIST_FILE = AlipayHomePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LXAPP.AlipayHomePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
